@@ -1,0 +1,8 @@
+dataset.ver3はGoogleSheetsで整理したデータセット。このデータセットと、Pythonで作成したデータセットの結果が同じかどうかを調べる目的。
+
+①Official Landprice Data Clean-up.ipynb
+これを実行してデータセットを作成。dataset.ver4が出力される。
+
+②Error detector.ipynb
+これは二つのデータセットの各セルを比べて、間違いがどこにあるかを教えてくれるコード。値が異なるセルの一覧をchecklist.csvというタイトルで作成する。
+
